@@ -1,0 +1,39 @@
+html, body, .container {
+    height: 100%;
+}
+.container {
+  display: table;
+}
+.center-row {
+  display: table-cell;
+   vertical-align: middle;
+}
+.quote-box{
+  border:1px solid black;
+  min-width: 25%;
+  background-color: white;
+  border-radius: 15px;
+}
+.quote {
+  min-height: 150px;
+}
+.quote-box p {
+  padding: 30px 15px 30px 15px;
+  font-size: 190%;
+  font-family: 'Kalam', cursive, sans-serif;
+  text-align:justify;
+}
+.quote-box button {
+    background-color: #F1F1F1;
+    border-radius: 15px;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color: white;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+}
+.author p {
+  padding-top:0px;
+}
